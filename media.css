@@ -1,7 +1,49 @@
 @media screen and (min-width: 780px){
 
+    .center{
+        max-width: 66.7rem;
+    }
+    /* Reference Section Styling */
+    .references{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .useful-links,
+    .our-services,
+    .address,
+    .news-letter{
+      width: 50%;
+    }
+    .useful-links{
+      margin:0;
+    }
 } 
 
 @media screen and (min-width: 1000px){
     
+    .center{
+        max-width: 100rem;
+    }
+    /* Reference Section Styling */
+    .references{
+        width: 100%;
+    }
+    .useful-links{
+        width: 16%;
+        margin-left: -5rem;
+    }
+    .our-services{
+        width: 16%;
+        margin: 0; 
+    }
+  
+    .address{
+        width: 33%;
+    } 
+    .news-letter{
+        width: 33%;
+        margin: 0;
+        margin-left: 6rem;
+    }  
 }
