@@ -1,7 +1,54 @@
 @media screen and (min-width: 780px){
 
+    .center{
+        max-width: 66.7rem;
+    }
+    /* Contact Section -> Bottom portion styling */
+    .email-call{
+        width: 100%;
+        display: flex;
+        justify-content: space-between; 
+    }
+    .email-us,.call-us{
+        width: 50%;
+        margin: 0;
+    }
+    .email-us{
+        margin-right: 5%;
+    }
+  
+    .name-email{
+        flex-direction: row;
+        width: 90%;
+        justify-content: center;
+    }
+    .name-email input:first-child,
+    .name-email input:last-child{
+        width: 50%;
+    }
+    .name-email input:last-child{
+        margin-left: 2%;
+    }
+  
+    .name-email input:first-child{
+      margin: 0;
+    } 
 } 
 
 @media screen and (min-width: 1000px){
-    
+    .center{
+        max-width: 100rem;
+    }
+    /* Contact Section Styling */
+    .bottom{
+        display: flex;
+        justify-content: center;
+    }
+    .left-section,
+    .right-section{
+        width: 50%;
+    }
+    .right-section{
+        margin-left: 3%;
+    } 
 }
