@@ -1,0 +1,22 @@
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+html{
+    font-size: 12px; 
+}
+body{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
