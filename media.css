@@ -2,6 +2,36 @@
 
 } 
 
-@media screen and (min-width: 1000px){
-    
-}
+@media (max-width: 1000px) {
+    nav {
+      display: none;
+    }
+    .fa-bars {
+      color: white;
+      display: flex;
+      padding: .2rem .8rem 0 0 ;
+      font-size: 3rem;
+    }
+    header{
+      background: none;
+    }
+    .home-class{
+       height:30rem;
+    }
+    .align-class{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .baker-class{
+        padding: 0 0 0 9%;
+    }
+    div h1 {
+      font-size: 28px;
+    }
+    div h2 {
+      margin: 15px 0 0;
+      font-size: 18px;
+    }
+  }
+
