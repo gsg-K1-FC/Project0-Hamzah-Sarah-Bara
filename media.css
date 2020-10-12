@@ -1,7 +1,21 @@
-@media screen and (min-width: 780px){
+@media screen and (min-width: 780px){ 
+    .center{
+        max-width: 66.7rem;
+    }
+    /* Footer Section Styling */
+    .footer-content{
+        display: flex; 
+        justify-content: space-between;
+        width: 100%;
+    }
+    .copyright-container{
+        text-align: left;
+    }
 
 } 
 
 @media screen and (min-width: 1000px){
-    
+    .center{
+        max-width: 100rem;
+    }
 }
