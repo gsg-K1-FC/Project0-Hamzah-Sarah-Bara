@@ -4,12 +4,23 @@
     padding: 0; 
     box-sizing: border-box;
 }
-* {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-  }
-  header {
+html{
+    font-size: 12px; 
+}
+body{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+header {
     display: flex;
     position: fixed;
     justify-content: space-around;
@@ -26,27 +37,19 @@
       position: relative;
   }
   .baker-class {
-    display: flex;
     font-size: 28px;
     line-height: 1;
     font-weight: 600;
     letter-spacing: 2px;
     font-family: "Poppins", sans-serif;
-    justify-content: space-around;
-    align-content: center;
+    /* justify-content: space-around; */
+    /* align-content: center; */
   }
   nav ul li a,
   header div a {
     color: white;
     cursor: pointer;
     text-decoration: none;
-  }
-  li {
-    list-style: none;
-    padding: 10px 10px 10px 20px;
-  }
-  li a:hover {
-    color: #ffc107;
   }
   .ul-class {
     display: flex;
@@ -55,6 +58,13 @@
     color: white;
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
+  }
+ .ul-class li {
+    list-style: none;
+    padding: 10px 10px 10px 20px;
+  }
+  .ul-class li a:hover {
+    color: #ffc107;
   }
   .fa-bars {
     display: none;
@@ -70,9 +80,6 @@
     background-color: rgba(45, 53, 69, 0.7);
     background-size: cover;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .home-class::before {
     content: "";
@@ -98,19 +105,17 @@
   }
   .fomate-class {
     text-align: center;
-    font-family: "Raleway", sans-serif;
   }
-  div h1 {
+  .welcome-class {
     font-size: 48px;
     color: white;
   }
-  div h2 {
+  .team-class{
     margin: 15px 0 0;
     font-size: 22px;
     color: #eeeeee;
   }
   .border-class {
-    font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 1px;
@@ -127,3 +132,4 @@
     background-color: #ffc107;
     transition: 0.7s;
   }
+  
