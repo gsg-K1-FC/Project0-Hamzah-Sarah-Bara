@@ -3,20 +3,20 @@
 } 
 
 @media (max-width: 1000px) {
-    nav {
+    .nav-class {
       display: none;
     }
     .fa-bars {
       color: white;
       display: flex;
       padding: .2rem .8rem 0 0 ;
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     header{
       background: none;
     }
     .home-class{
-       height:30rem;
+        height:50rem;
     }
     .align-class{
         display: flex;
@@ -26,10 +26,10 @@
     .baker-class{
         padding: 0 0 0 9%;
     }
-    div h1 {
+    .welcome-class{
       font-size: 28px;
     }
-    div h2 {
+    .team-class{
       margin: 15px 0 0;
       font-size: 18px;
     }
