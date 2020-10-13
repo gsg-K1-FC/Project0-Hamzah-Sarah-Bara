@@ -1,7 +1,33 @@
 @media screen and (min-width: 780px){
-
+    .center{
+        max-width: 66.7rem;
+    }
+    /* Team Section Styling */
+    .employees{
+        justify-content: space-between;
+        max-width: 66.7rem;
+    }
+    .employee{
+        width: 48%;
+    }
+    .employee-social{
+        padding: 0.4rem;
+    }
 } 
 
 @media screen and (min-width: 1000px){
-    
+    .center{
+        max-width: 100rem;
+    } 
+
+    /* Team Section Styling */
+    .employees{
+        max-width: 100rem;
+    }
+    .employee{
+        width: 23%;
+    }
+    .employee-social{
+        padding: 0.4rem;
+    }
 }
