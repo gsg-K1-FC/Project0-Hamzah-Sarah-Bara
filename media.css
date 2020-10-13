@@ -1,7 +1,18 @@
 @media screen and (min-width: 780px){
+   
 
+    
 } 
 
 @media screen and (min-width: 1000px){
+
     
 }
+@media screen and (min-width: 400px){
+   
+    .card{
+        padding: 10px;
+    }
+ 
+    
+} 

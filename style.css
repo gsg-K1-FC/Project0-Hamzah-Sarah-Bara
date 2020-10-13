@@ -1,22 +1,250 @@
-
-*{
-    margin: 0; 
-    padding: 0; 
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-html{
-    font-size: 12px; 
-}
-body{
-    display: flex; 
+  }
+  html {
+    font-size: 12px;
+  }
+  body {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
-}
-h1,h2,h3,h4,h5,h6{
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: 'Raleway', sans-serif;
-}
-p{
+  }
+  p {
     font-family: 'Open Sans', sans-serif;
+  }
+  
+  .services {
+   
+    height: 800px;
+    width: 100%;
+    padding: 60px 0;
+    display: block;
+   
+  }
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.section-title p {
+  font-size: 14px;
+  color: #aab3c7;
+
+  margin-bottom: 1rem;
+
+  padding-bottom: 30px;
+  padding: 0 50px;
+}
+
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+   
+    position: relative;
+    line-height: 1.2;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    text-align: center;
+    padding: 20 0px;
+}
+  .section-title h2::after {
+    content: '';
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ffc107;
+    padding: 10 0px;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+ 
+  
+  .containerCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 120px;
+  
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 360px;
+    height: 313px;
+  
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 15px 0;
+  }
+  
+  .services .icon-box {
+    text-align: center;
+    padding: 70px 20px 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+  }
+  
+  .services .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    position: relative;
+    background: #f5f5f5;
+    border-radius: 50px;
+  }
+  .bx {
+    font-family: 'boxicons';
+    line-height: 1;
+    display: inline-block;
+  }
+  .services .icon-box .icon i {
+    font-size: 32px;
+    transition: 0.5s;
+    line-height: 1;
+    position: relative;
+  }
+  .iconbox-servicesblue i {
+    color: #47aeff;
+  }
+  .services .icon-box h4 {
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+  
+    font-weight: bold;
+  }
+  
+  .p {
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .services  .iconbox-blue i {
+    color: blue;
+  }
+  .services .iconbox-pink i {
+    color:palevioletred;
+  }
+  .services .iconbox-yellow i {
+    color: yellow;
+  }
+  .services .iconbox-red i {
+    color:red;
+  }
+  .services .iconbox-teal i {
+    color: teal;
+  }
+  
+  
+  .services .iconbox-orange i {
+    color: orange;
+  }
+  
+  .card:hover  .iconbox-blue .icon  {
+    background-color:blue;
+    color: white;
+  }
+  .card:hover  .iconbox-blue i  {
+    
+    color: white;
+  }
+
+
+  .card:hover  .iconbox-teal i  {
+    
+    color: white;
+  }
+
+  .card:hover  .iconbox-pink i  {
+    
+    color: white;
+  }
+  
+
+  .card:hover  .iconbox-orange i  {
+    
+    color: white;
+  }
+
+  .card:hover  .iconbox-red i  {
+    
+    color: white;
+  }
+
+  .card:hover  .iconbox-yellow i  {
+    
+    color: white;
+  }
+
+  .card:hover  .iconbox-pink .icon  {
+    background-color:palevioletred;
+    color: white;
+  }
+  
+  .card:hover  .iconbox-red .icon  {
+    background-color:red;
+    color: white;
+  }
+  
+  .card:hover  .iconbox-teal .icon  {
+    background-color:teal;
+    color: white;
+  }
+  .card:hover  .iconbox-orange .icon  {
+    background-color:orange;
+    color: white;
+  }
+  
+  
+  
+  .card:hover  .iconbox-yellow .icon  {
+    background-color:yellow;
+    color: white;
+  }
+  
