@@ -1,3 +1,23 @@
+@media screen and (min-width: 780px){
+    .center{
+        max-width: 66.7rem;
+    }
+    /* Brand Section Styling */
+    .brand{
+        width: 33.33%;
+    }
+} 
+
+@media screen and (min-width: 1000px){
+    .center{
+        max-width: 100rem;
+    }
+
+    /* Brand Section Styling */
+    .brand{
+        width: 16.6%;
+    } 
+}
 @media (max-width: 1000px) {
     .nav-class {
       display: none;
