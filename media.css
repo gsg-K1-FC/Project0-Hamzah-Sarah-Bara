@@ -18,3 +18,33 @@
         width: 16.6%;
     } 
 }
+@media (max-width: 1000px) {
+    .nav-class {
+      display: none;
+    }
+    .fa-bars {
+      color: white;
+      display: flex;
+      padding: .2rem .8rem 0 0 ;
+      font-size: 2.5rem;
+    }
+    .home-class{
+        height:50rem;
+    }
+    .align-class{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .baker-class{
+        padding: 0 0 0 9%;
+    }
+    .welcome-class{
+      font-size: 28px;
+    }
+    .team-class{
+      margin: 15px 0 0;
+      font-size: 18px;
+    }
+  }
+

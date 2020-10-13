@@ -21,44 +21,155 @@ p{
     font-family: 'Open Sans', sans-serif;
 } 
 
-.section{
-    display: flex; 
-    justify-content: center;
-    width: 100%; 
-    padding : 2rem 0;
-}
-.center{
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    top:0;
+    width: 100%;
+    background: rgba(55, 64, 85, 0.5);
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 20px 0px;
+  }
+  .align-class{
+      position: relative;
+  }
+  .baker-class {
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+  }
+  .anchor-class {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .ul-class {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+  }
+ .ul-class li {
+    list-style: none;
+    padding: 10px 10px 10px 20px;
+  }
+  .ul-class li a:hover {
+    color: #ffc107;
+  }
+  .fa-bars {
+    display: none;
+    margin-right: 10px;
+  }
+  li a:hover {
+    color: #ffc107;
+  }
+  .home-class {
+    width: 100%;
+    height: 50rem;
+    background-image: url(https://bootstrapmade.com/demo/themes/Baker/assets/img/hero-bg.jpg);
+    background-color: rgba(45, 53, 69, 0.7);
+    background-size: cover;
+    position: relative;
+  }
+  .home-class::before {
+    content: "";
+    background: rgba(45, 53, 69, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .content-class {
+    position: absolute;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 90%;
-    max-width: 50rem;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    padding: 50px 0px;
+    transform: translate(-50%, -50%);
+    letter-spacing: 1px;
+  }
+  .fomate-class {
+    text-align: center;
+  }
+  .welcome-class {
+    font-size: 60px;
+    color: white;
+  }
+  .team-class{
+    margin: 15px 0 0;
+    font-size: 22px;
+    color: #eeeeee;
+  }
+  .border-class {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 40px;
+    border: 2px solid #ffc107;
+    color: #fff;
+  }
+  .border-class:hover {
+    background-color: #ffc107;
+    transition: 0.7s;
+  }
+  
+
+
+/* Common class selectors */
+.section{
+  display: flex; 
+  justify-content: center;
+  width: 100%; 
+  padding : 2rem 0;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 50rem;
 }
 
 /* Brand Section Styling */
 #brands-section{
-    background-color: #f7f8fa;
+  background-color: #f7f8fa;
 }
 .brands{
-    display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
 }
 .brand{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    width: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 50%;
 }
 
 .brands img{
-    width: 40%;
-    filter: grayscale(100%);
-    transition: transform 0.5s ease-in-out,filter 0.5s ease-in-out;
+  width: 40%;
+  filter: grayscale(100%);
+  transition: transform 0.5s ease-in-out,filter 0.5s ease-in-out;
 }
 .brands img:hover{
-    transform: scale(1.2); 
-    filter: grayscale(0%);
-    transition: 0.5s ease-in-out;
+  transform: scale(1.2); 
+  filter: grayscale(0%);
+  transition: 0.5s ease-in-out;
 }
