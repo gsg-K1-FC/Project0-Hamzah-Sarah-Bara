@@ -1,5 +1,5 @@
 ### Project0-Hamzah-Sarah-Bara 
-## Design credit goes to: https://bootstrapmade.com/demo/themes/Baker/  
+## Design credit goes to: https://bootstrapmade.com/demo/themes/Baker/
 
 --- 
 # Why we did this? 
@@ -19,4 +19,4 @@
 ---
 
 # You can see the final Result by clicking the below link: 
-- link placeholder
+- https://gsg-k1-fc.github.io/Project0-Hamzah-Sarah-Bara/
