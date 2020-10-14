@@ -252,6 +252,33 @@ header {
   color: #AAAAAA;
 }
 
+/* Statistics Section Styling */ 
+#statistics-section{
+  background-color: #f7f8fa;
+  padding-bottom: 5rem;
+} 
+
+.statistics h1{
+  font-size: 4.5rem;
+  color: #414C64;
+}
+.statistics{
+  width: 100%;
+  max-width: 50rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+.statistics p{
+  font-size: 1.4rem;
+  color: #444444;
+} 
+.statistics div{
+  width: 50%;
+  text-align: center;
+}
+
+
 /* Contact Section Styling */
 /* Top portion */
 /* Team Section Top portion */
