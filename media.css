@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 780px){
     .center{
         max-width: 66.7rem;
@@ -5,8 +6,8 @@
     /* Brand Section Styling */
     .brand{
         width: 33.33%;
-    } 
-
+    }  
+    
     /* Contact Section -> Bottom portion styling */
     .email-call{
         width: 100%;
@@ -54,6 +55,16 @@
     }
     .useful-links{
       margin:0;
+    } 
+
+    /* Footer Section Styling */
+    .footer-content{
+        display: flex; 
+        justify-content: space-between;
+        width: 100%;
+    }
+    .copyright-container{
+        text-align: left;
     }
 } 
 
@@ -130,5 +141,3 @@
     }
   }
 
->>>>>>> main
->>>>>>> main
