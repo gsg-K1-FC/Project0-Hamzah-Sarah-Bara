@@ -77,3 +77,18 @@ p{
     opacity: 0.8; 
     cursor: pointer;
 }
+
+/* Floating Button */ 
+.float-button{
+    position: fixed; 
+    z-index: 2;
+    bottom: 1.2rem; 
+    right: 1.2rem; 
+    background-color: #FFC107; 
+    padding: 0.8rem 1.1rem;
+    border-radius: 50%; 
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 1.3rem;
+    transition: opacity 0.4s ease-in-out;
+}
