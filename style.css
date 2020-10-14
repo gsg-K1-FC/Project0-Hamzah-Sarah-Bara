@@ -33,6 +33,11 @@ p{
     width: 90%;
     max-width: 50rem;
 } 
+.hoverable:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
 
 /* Contact Section Styling */
 /* Top portion */
@@ -138,8 +143,3 @@ textarea{
     font-size: 1.4rem;
     transition: 0.4s ease-in-out;
 }
-
-.contact-method button:hover{
-    opacity: 0.8;
-    cursor: pointer;
-}  
