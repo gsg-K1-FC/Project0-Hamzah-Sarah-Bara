@@ -35,6 +35,12 @@ p{
     max-width: 50rem;
 }
 
+.hoverable:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
 /* References Section Styling */
 #reference-section{
     background-color: #fafafc;
@@ -137,8 +143,3 @@ p{
 .news-letter form input:focus{
     outline: none;
 }
-.news-letter form button:hover{
-    opacity: 0.8;
-    cursor: pointer;
-    transition: 0.4s ease-in-out;
-} 
