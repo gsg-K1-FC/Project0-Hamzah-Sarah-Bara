@@ -30,6 +30,8 @@ header {
     z-index: 997;
     padding: 20px 0px;
   }
+
+  /* Header Styling */
   .align-class{
       position: relative;
   }
@@ -182,27 +184,6 @@ header {
 #team-section{
   background-color: #f7f8fa;
 } 
-.section-title{
-  display: flex; 
-  flex-direction: column;
-  align-items: center;
-  color: #444444; 
-  font-size: 2.6rem;
-}
-.section-title::after{
-  content: ""; 
-  background-color: #FFC107; 
-  width: 4rem; 
-  height: 0.3rem;
-  margin: 1.5rem 0;
-}
-
-.section-description{
-  color: #aab3c7; 
-  font-size: 1.2rem;
-  line-height: 2rem;
-  text-align: center;
-}
 #team-section .top{
   margin-bottom:5rem;
 }
@@ -273,6 +254,7 @@ header {
 
 /* Contact Section Styling */
 /* Top portion */
+/* Team Section Top portion */
 .section-title{
   display: flex; 
   flex-direction: column;
@@ -536,4 +518,3 @@ textarea{
   transition: opacity 0.4s ease-in-out;
 }
 
->>>>>>> main
