@@ -2,133 +2,23 @@
     .center{
         max-width: 66.7rem;
     }
-    /* Brand Section Styling */
-    .brand{
-        width: 33.33%;
-    } 
 
-    /* Contact Section -> Bottom portion styling */
-    .email-call{
-        width: 100%;
-        display: flex;
-        justify-content: space-between; 
-    }
-    .email-us,.call-us{
-        width: 50%;
-        margin: 0;
-    }
-    .email-us{
-        margin-right: 5%;
-    }
-  
-    .name-email{
-        flex-direction: row;
-        width: 90%;
-        justify-content: center;
-    }
-    .name-email input:first-child,
-    .name-email input:last-child{
-        width: 50%;
-    }
-    .name-email input:last-child{
-        margin-left: 2%;
-    }
-  
-    .name-email input:first-child{
-      margin: 0;
-    } 
-
-    .center{
+    /* Statistics Section Stylign */
+    .statistics{
         max-width: 66.7rem;
     }
-    /* Reference Section Styling */
-    .references{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .useful-links,
-    .our-services,
-    .address,
-    .news-letter{
-      width: 50%;
-    }
-    .useful-links{
-      margin:0;
-    }
-} 
-
-@media screen and (min-width: 1000px){
+}
+@media (max-width: 1000px) {
     .center{
         max-width: 100rem;
     }
 
-    /* Brand Section Styling */
-    .brand{
-        width: 16.6%;
-    }  
-    /* Contact Section Styling */
-    .bottom{
-        display: flex;
-        justify-content: center;
+    /* Statistics Section Styling */
+    .statistics{
+        max-width: 100rem; 
     }
-    .left-section,
-    .right-section{
-        width: 50%;
-    }
-    .right-section{
-        margin-left: 3%;
-    } 
-    /* Reference Section Styling */
-    .references{
-        width: 100%;
-    }
-    .useful-links{
-        width: 16%;
-        margin-left: -5rem;
-    }
-    .our-services{
-        width: 16%;
-        margin: 0; 
-    }
-  
-    .address{
-        width: 33%;
-    } 
-    .news-letter{
-        width: 33%;
-        margin: 0;
-        margin-left: 6rem;
-    }  
-}
-@media (max-width: 1000px) {
-    .nav-class {
-      display: none;
-    }
-    .fa-bars {
-      color: white;
-      display: flex;
-      padding: .2rem .8rem 0 0 ;
-      font-size: 2.5rem;
-    }
-    .home-class{
-        height:50rem;
-    }
-    .align-class{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-    }
-    .baker-class{
-        padding: 0 0 0 9%;
-    }
-    .welcome-class{
-      font-size: 28px;
-    }
-    .team-class{
-      margin: 15px 0 0;
-      font-size: 18px;
+    .statistics div{
+        width: 25%;
     }
   }
 
->>>>>>> main
->>>>>>> main
